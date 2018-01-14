@@ -1,0 +1,119 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23/09/2015, 12:01:09
+    Author     : mrandretti
+*/
+
+/*unidades de medida son font-size: px em rem % o cm */ 
+/* unidades de color= rgb(-.-.-) y rgba para transparencia (-,-,-,-)  */
+/*fondos bacground*/
+/* display: inline-block para poner en fila los elementos*/
+/*cambiar tamanos y colores las letras*/
+
+/*div{
+    color: orange;
+    font-family: arial, comic;   
+    font-size: 20px;
+    font-weight: normal; negrita
+    text-align: left; mover el texto
+    line-height: 30px; /* es la separacion entre lineas opcional
+    text-decoration: none ; para poner lineas
+    text-transform: none; cambias todas las palabras a mayusculas o minusculasm, etc.
+    letter-spacing: normal; espacio entre letras cada una
+    word-spacing: normal; espaciado entre palabras
+    text-shadow: 5px 5px 5px #000 ; para poner sombras al texto
+    }
+    */
+
+    /*a{
+    font-size: 20px;
+    text-decoration: none; pone o quita subrayado
+    margin: 10px 10px 10px 10px ; margen entre objetos
+    background: appworkspace; 
+    padding: 10px 20px ;  pone margenes entre texto y e cuadro interno
+    display:inline-block; esto ayuda hacer un bloque o algo asi para que cojan los margenes de arriba 
+   }
+a:link{
+    color: orange;
+} 
+
+/* a:link sirve para cambiar de colo o forma los links no visitados
+ a:hover sirve para poner efecto cuando señalemos con el mause un enlace
+ a:active sirve para poner efecto al enlace despues de dar click
+ a:visited pone efectos a los enlaces que ya se a visitado antes.
+ */
+ 
+/*img {
+    border-radius: 50%;
+    display:box;
+    }
+igual a la imagen le puedes redondiar con bordes radius y le haces display box para que deje de 
+ser lineal y pueda moverse dentro de un deep */
+
+/*ul{
+    list-style-type: decimal; cambia el icono de la lista a cualquier cosa
+    background: activeborder; fondo
+    padding: 0; margen interno
+    width: 50%; cantidad que ocupa el bloque
+} 
+li{
+    display:inline-block;  pone en bloque los elementos
+    padding: 5px 10px;   margen interno
+}
+li:hover{
+    background: black; todo el hover modifica cuando se pone el mause encima
+    padding: 10px 10px;
+}*/    
+
+/*table{
+    border: 1px solid black;  es el borde de afuera
+    border-collapse: collapse;   es para que se una las celdas
+} 
+
+td{
+    border: 1px solid black; aqui pone bordes  las celdas internas de la taba
+   padding: 10px;  un margen
+}*/
+
+/*form{
+    width: 23%;
+    border: 2px solid black ;
+    margin: 10px;
+    padding: 10px;
+} 
+label{
+    width: 100%;
+    display: block;
+}
+.sex{
+    width: 20%;
+  display: inline;
+ 
+}
+.nombre, .email, .contrasena, select{
+    width: 97%;
+    margin-bottom: 10px;
+    border: 2px solid blue;
+}
+input:focus{
+    border: 2px solid gray;
+}       para cuando seleccionemos el cuadro cambie de color el borde 
+input[type="submit"]{
+    background: blue;
+    color: white;
+    display: block;
+    width: 97%;
+    padding: 10px;          toda esta sentencia cambia un boton de tipo submit
+    
+}
+input[type="submit"]:hover{
+    background: appworkspace;
+    cursor: pointer;     este encambio cambia el boon cuando pasa el mause.
+}*/
+
+/*overflow: hidden. sirve para si tenemos un float:right o flot:lefth (float sirve para alinear elemtos) nos ayda a que los 
+elementos no sobrepasen del margen o a solucionar y sea visible el margen.*/

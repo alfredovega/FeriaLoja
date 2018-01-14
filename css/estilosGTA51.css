@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10/03/2016, 01:07:21 PM
+    Author     : mrandretti
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    color: white ;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+}
+
+header div {
+    width: 45%;
+    display: inline-block;
+    padding: 0;
+    margin: auto 10px;
+   
+}
+.dark{
+    background: white;
+    color: black;
+}
+
+header h2 {
+    margin: 10px auto auto;
+}
+
+header, footer, .wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: 25px auto;}
+
+.main{
+    background: white;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+.main article{
+    width: 90%;
+    margin: 20px;
+}
+article p , h3 {
+    margin: 20px;
+}
+ 
+.main div {
+    position: relative;
+    text-align: center;
+    
+}
+
+.main a{
+    text-decoration: none;
+    padding: 10px;
+    background: black;
+    color: white;
+    
+}
+.main a:hover {
+    background: activeborder;
+    color: black;
+}
+.main a:active {
+    background: black;
+}
+.wrapper form{
+    width: 50%;
+    border: 2px solid white;
+    margin: 20px 0px;
+    padding: 20px;
+    
+}
+form textarea{
+    width: 100%;
+    margin: 10px 0px;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 400px;
+}
+textarea:focus{
+    border: 2px solid darkgray;
+}
+form input{
+    width: 25%;
+    padding: 5px;
+    background: black;
+    color: white;  
+}
+form input:hover{
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    background: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
