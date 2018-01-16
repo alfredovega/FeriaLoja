@@ -14,7 +14,7 @@ and open the template in the editor.
 }
 
 body {
-    background: black;
+    background: cadetblue;
     color: white ;
 }
 
@@ -30,11 +30,48 @@ header div {
     margin: auto 10px;
    
 }
+
+label{
+    width: 100%;
+    display: block;
+   
+}
 .dark{
     background: white;
     color: black;
 }
 
+.nombre, .ciudad, .figura, .domicilio, .ci, .email, .stands, select{
+    width: 97%;
+    margin-bottom: 10px;
+    border: 2px solid lightslategray;
+    background: white;
+    color: black;
+}
+
+.main table{
+    background: white;
+    width:100%;
+    padding: 10px;
+    border: 1px solid lightslategray;
+    border-collapse: collapse;
+}
+
+td{
+     border: 2px solid lightslategray;
+     padding: 10px;
+}
+
+input:focus{
+    border: 2px solid cadetblue;
+}        
+input[type="submit"]{
+    background: cadetblue;
+    color: black;
+    display: block;
+    width: 97%;
+    padding: 10px;    
+}
 header h2 {
     margin: 10px auto auto;
 }
@@ -67,8 +104,8 @@ article p , h3 {
 .main a{
     text-decoration: none;
     padding: 10px;
-    background: black;
-    color: white;
+    background: cadetblue;
+    color: black;
     
 }
 .main a:hover {

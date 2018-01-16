@@ -106,7 +106,7 @@ label{
   display: inline;
  
 }
-.nombre, .email, .contrasena, select{
+.nombre, .email, .apellido, select{
     width: 97%;
     margin-bottom: 10px;
     border: 2px solid lightslategray;

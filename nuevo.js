@@ -16,15 +16,12 @@
 // document.write("es otro")  ; 
 //}
 
-var nombre = prompt("introduce tu nombre");
-if (nombre === "Andres"){
+var nombre = prompt("Los nombres de Administrador son: Andres o Rodrigo"+ " " +"introduce uno de estos nombres");
+if (nombre === "Andres" || nombre ==="Rodrigo" ){
 alert("Bienvenido" +" "+ nombre);
 }
 else{
-    alert("No esta registrado como administrador de la feria el nombre:" +" "+ nombre);
+   alert("No esta registrado como administrador de la feria el nombre:" +" "+ nombre + " --- "+ "Los nombres de Administrador autorizados son: Andres o Rodrigo");
     location.href="FeriaLojaIndex.html";}
-document.write("hola a mi");
-//arreglo.pop(); pop sirve para eliminar el ultimo elemento del arreglo
-//arreglo.push(); push sirve para aumentar elemento al arreglo al final
-// var arreglo3= arreglo.concat(arreglo2); concat une arreglos o variables
-// arreglo.join(":"); agrega lgun espasiado o simbolo entre elementos del arreglo
+document.write("Bienvenido" + " "+ nombre);
+
