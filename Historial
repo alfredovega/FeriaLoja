@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>CalComerciantes</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--<script src="nuevo.js"></script>-->
+        <link  rel="stylesheet" href="css/estilos2.css" />
+    </head>
+    <body>
+        <header>
+            
+            <div class="dark"> 
+                <div>
+                <img src="imagenesand/ferialoja.png" title="Logo DarkGame" alt="Logo DarkGame" width="250" height="150" />
+            </div>
+                <!--h1 es el titulo principal-->
+                <h1> !!!!Feria de Loja!!!! </h1>
+                <h2>Historial Comerciante</h2>
+                
+                </div>
+        </header>
+        <section class="wrapper">
+            <section class="main">
+               <label for="nombre"> Ingrese su nombre:</label>
+        <input type="text" class="nombre" placeholder="escribe tu nombre" maxlength="30" name="nombre" id="nombre">
+        
+         <label for="ci"> Ingrese su RUC/CI:</label>
+        <input type="text" class="ci" placeholder="escribe tu identificacion" maxlength="30" name="ci" id="ci">
+        
+       
+            </section>
+          <form>
+                <label for="mensaje" > Comentario: </label>
+                <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+                <input type="submit" value="Enviar"/>
+            </form>
+             <a href=" FeriaLojaIndex.html "> Pagina Principal </a>
+    </section>
+            
+        <footer>
+            Todos los derechos Reservdos
+           
+        </footer>
+    </body>
+</html>
